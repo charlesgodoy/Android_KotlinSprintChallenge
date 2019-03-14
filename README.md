@@ -18,9 +18,7 @@
 - [ ] work with Interfaces, Abstract Classes and Inherited Classes in Kotlin
 - [x] use special types of classes in Kotlin
 - [x] work with Pairs and Maps in Kotlin
-  - return pair from http request method
 - [x] use Kotlin Extension Functions
-  - add extention function to video to get the desired video file url that is specified in a constant
 
 ### Module 3 - Kotlin in Android
 
@@ -46,9 +44,12 @@
 Build an app which uses the spacetelescope api to retrieve videos and then build a view player to play them.
 
 1. Use coroutines to execute network calls to the api
+> return pair from http request method
 2. Use the serialization library to process the JSON response
 
 > You can use the `@Optional` tag and `Json.nonstrict.parse` to ignore non-necessary Json properties.
+
+> add extention function to video to get the desired video file url that is specified in a constant
 
 3. Write an extension function to the VideoData class (the one with the array of video_files) to return a video_file object based on a predetermined value which is stored as a constant in the VideoData class
 4. Add a `VideoView`, `SeekBar`, and `Button` to the layout and use them to play the video retrieved from the url
