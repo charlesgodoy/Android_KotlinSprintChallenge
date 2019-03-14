@@ -44,6 +44,8 @@
 Build an app which uses the spacetelescope api to retrieve videos and then build a view player to play them.
 
 1. Use coroutines to execute network calls to the api
+> The documentation can be found here [](http://hubblesite.org/api/documentation)
+> Be sure to add the `android:usesCleartextTraffic="true"` attribute to the application tag in your manifest to work with http urls (as opposed to https)
 > return pair from http request method
 2. Use the serialization library to process the JSON response
 
