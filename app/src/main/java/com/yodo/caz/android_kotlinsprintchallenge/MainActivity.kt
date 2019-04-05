@@ -10,7 +10,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     private var playbackPosition = 0
-    private val testVideo = "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
+    private val testVideo = "https://media.stsci.edu/uploads/video_file/video_attachment/1/video.m4v"
     private lateinit var mediaController: MediaController
 
     override fun onCreate(savedInstanceState: Bundle?) {
